@@ -1,0 +1,256 @@
+.link-tag {
+  text-decoration: none;
+}
+.job-card-background-div {
+  background-color: #272727;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  margin: 40px;
+  width: 82%;
+  height: auto;
+  cursor: pointer;
+}
+.logo-title-div {
+  display: flex;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+.title-ratings-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding-top: 0px;
+}
+.ratings-stat-div {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.star-div {
+  margin-right: 5px;
+  margin-top: 0px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: -15px;
+}
+.ratings {
+  color: #ffffff;
+  margin-bottom: 0px;
+  display: flex;
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  font-family: roboto;
+}
+.logo {
+  height: 58px;
+  width: 50px;
+  margin: 2px;
+  margin-bottom: 0px;
+}
+.title {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: roboto;
+}
+.location-employmenttype-pacageperannum-hr-div {
+  margin: 0px;
+  padding-bottom: 0px;
+  /* display: flex; */
+}
+.location-employmenttype-pacageperannum-div {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.location-employment-div {
+  display: flex;
+  margin-bottom: 0px;
+}
+.locationsymbol-location-div {
+  display: flex;
+  margin: 5px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 14px;
+}
+.locationsimbol {
+  color: #ffffff;
+  margin-right: 10px;
+  margin-top: 0px;
+  height: 20px;
+}
+.location {
+  color: #f8fafc;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: roboto;
+}
+.employmentsymbol-employment-div {
+  display: flex;
+  margin-top: 10px;
+}
+.employmentsymbol {
+  color: #ffffff;
+  margin-right: 10px;
+  margin-top: 2px;
+  height: 20px;
+}
+.employment {
+  color: #f8fafc;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: roboto;
+}
+.packageperannum-div {
+  margin-left: 300px;
+  margin-bottom: 0px;
+}
+.packageperannum {
+  color: #ffffff;
+  font-family: roboto;
+}
+.custom-hr-jobitem-div {
+  padding-top: 0px;
+  margin-top: -10px;
+}
+.custom-hr-jobitem {
+  border: 0.8px solid #f8fafc; /* Customize the color and thickness */
+  width: 97%; /* Adjust width if necessary */
+  margin-bottom: -0px;
+  padding: 0px;
+  margin-top: 2px;
+}
+.discription-div {
+  margin-left: 9px;
+  margin-top: -7px;
+}
+.descriptionheading {
+  color: #f1f5f9;
+  font-family: roboto;
+  margin-bottom: 6px;
+  margin-left: 2px;
+}
+.description {
+  color: #f1f5f9;
+  font-size: 18px;
+  margin: 2px;
+}
+
+@media (max-width: 420px) {
+  .job-card-background-div {
+    width: 90vw;
+    height: 35vh;
+    padding: 10px;
+    overflow: auto;
+
+    margin-left: 48px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .logo-title-div {
+    margin: 0px;
+    padding: 0px;
+  }
+  .logodiv {
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+  .title-ratings-div {
+    margin-top: 0px;
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .title-div {
+    padding: 0px;
+    margin-top: 2px;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: 0px;
+    margin: 0px;
+  }
+  .ratings-stat-div {
+    margin-top: -6px;
+    padding-top: 0px;
+  }
+
+  .star-div {
+    margin: 0px;
+  }
+  .star-icon {
+    height: 12px;
+  }
+  .ratings {
+    font-size: 15px;
+  }
+  .location-employmenttype-pacageperannum-div {
+    margin: 0px;
+    padding: 0px;
+  }
+  .location-employment-div {
+    margin-top: 0px;
+    margin: 0px;
+  }
+  .locationsymbol-location-div {
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+  .employmentsymbol-employment-div {
+    margin: 0px;
+    padding: 0px;
+  }
+  .employmentsymbol {
+    height: 14px;
+  }
+  .locationsimbol {
+    height: 14px;
+  }
+  .location {
+    font-size: 15px;
+  }
+  .packageperannum-div {
+    margin-left: 65px;
+    margin-top: -12px;
+  }
+  .packageperannum {
+    font-size: 15px;
+  }
+  .employment {
+    font-size: 15px;
+  }
+  .discription-div {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -8px;
+    width: 100%;
+  }
+  .descriptionheading {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 18px;
+    font-family: roboto;
+    /* Set a maximum height for the description container */ /* Always display a vertical scroll bar */
+    padding: 10px; /* Optional: Add padding for readability */
+  }
+}

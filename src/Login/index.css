@@ -1,0 +1,104 @@
+body {
+  background-color: #121212;
+  background-size: cover;
+}
+
+.formmainimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formitemdiv {
+  background-color: #272727;
+  padding: 18px;
+  width: 310px;
+  height: 310px;
+  border-radius: 8px;
+  margin: 25px;
+}
+
+.usernamepassdiv {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.logo-img-heading-div {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 0px;
+}
+.logo-img {
+  margin-bottom: 0px;
+  height: 35px;
+}
+.logo-heading-div {
+  margin-top: -12px;
+  margin-left: 8px;
+}
+.logoheading {
+  color: #4f46e5;
+  font-size: 26px;
+  font-family: roboto;
+}
+.usernamepara {
+  color: aliceblue;
+  font-size: 12px;
+  font-family: roboto;
+}
+.usernameinput {
+  padding: 8px;
+  margin-top: 12px;
+  background-color: #202020;
+  color: #f8fafc;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #6366f1;
+  width: 270px;
+  margin-bottom: 10px;
+}
+.password-name-input {
+  padding: 8px;
+  margin-top: 12px;
+  background-color: #202020;
+  color: #f8fafc;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #6366f1;
+  width: 270px;
+  margin-bottom: -50px;
+}
+.password-div {
+  margin-top: 150px;
+}
+.password {
+  color: #f8fafc;
+
+  font-size: 12px;
+  font-family: roboto;
+}
+
+.buttondiv {
+  margin-top: 0px;
+}
+.loginbuton {
+  padding: 8px;
+  background-color: #6366f1;
+  color: #f8fafc;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #6366f1;
+  border-radius: 8px;
+  width: 260px;
+  font-family: roboto;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.error-msg-div {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.error-msg {
+  color: #ff0b37;
+}
